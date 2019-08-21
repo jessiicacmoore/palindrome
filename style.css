@@ -12,7 +12,7 @@ body {
 }
 
 .palindrome-checker {
-  border: 1px dashed #000;
+  border: 1px dashed #ccc;
   border-radius: 1rem;
   padding: 4rem 2rem;
   text-align: center;
@@ -20,5 +20,8 @@ body {
 
 .palindrome-checker > i {
   font-size: 8rem;
-  margin-bottom: .5em;
+}
+
+.palindrome-checker form {
+  margin: 2rem 0 3rem;
 }
